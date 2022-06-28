@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "ColgateReady-Regular";
+  src: url('./font/ColgateReady-Regular.ttf');
+}
+
+@font-face {
+  font-family: "ColgateReady-Light";
+  src: url('./font/ColgateReady-Light.ttf');
+}
+
+@font-face {
+  font-family: "ColgateReady-Bold";
+  src: url('./font/ColgateReady-Bold.ttf');
+}
+
+
+:root {
+  --bs-font-sans-serif: "ColgateReady-Light", "ColgateReady-Bold" !important
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  /* font-family:  !important; */
+}
+
+span {
+  color: #d2010d;
+}
+
+.containerForm {
+  /* background: url("../img/Backgroundb.png"); */
+  /* background: url("../img/Backgroundb.png"); Cali */
+  background-size: 200% 100%;
+  /* // Cali */
+  background-repeat: no-repeat, repeat;
+  background-color: #ffffff;
+}
+
+.card {
+  width: "40rem" !important;
+}
+
+.Forms {
+  width: 32rem;
+  margin: 2em auto;
+  padding: 2em 1em 4em;
+  border: 0.5px solid #ced4da;
+  border-radius: 0.25rem;
+  background: transparent;
+}
+
+.img-holder {
+  margin: 2em 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.img-holder img {
+  max-height: 400px;
+  width: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.Overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, .5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border-radius: 1em 0 1em 1em !important;
+}
+
+.pendon {
+  width: 80%;
+  margin: 0% auto 1em;
+  padding: 3em 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.pendon p {
+  font-weight: 900;
+  font-size: 0.9em;
+  color: #342e7b;
+}
+
+.pendon img.titulo {
+  margin: 2em 0;
+  width: 100%;
+}
+
+.pendon img.regimen {
+  /* margin: 2em 0; */
+  width: 100%;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #00a7ed !important;
+  border-color: #00a7ed !important;
+}
+
+.habeas {
+  width: 100%;
+  margin-top: 2em;
+}
+
+.habeas p.habeasData {
+  text-align: justify;
+  font-size: 0.8em
+}
+
+h4.hastag {
+  font-family: "ColgateReady-Bold";
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 900;
+  color: #d2010d;
+}
+
+.noAutorizar {
+  background: #b1b1b1 !important;
+  border: 1px solid #b1b1b1 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-select {
+  border-radius: 1em 0 1em 1em !important;
+}
+
+.trueApi{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.alert-success {
+  width: 100%;
+  text-align: center;
+}
